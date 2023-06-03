@@ -1,24 +1,31 @@
 const products = [
     { 
         id:1,
-        name: "iPhone 12 pro",
+        name: "Rodeo motpro",
         desc: "desc1",
-        price: 999,
-        image: "https://res.cloudinary.com/dil1psh4v/image/upload/v1675445227/onlineShop/ip_14_nkae1y.jpg"
+        price: 1999,
+        image: "https://cdn.pixabay.com/photo/2013/07/13/13/43/racing-bicycle-161449_1280.png"
     },
     {
         id: 2,
-        name: "iPhone 13 pro",
+        name: "Encyclopedia set",
         desc: "desc2",
-        price: 1999,
-        image: "https://res.cloudinary.com/dil1psh4v/image/upload/v1675445194/onlineShop/ip_13_vizrid.jpg"
+        price: 999,
+        image: "https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717_640.jpg"
     },
     {
         id: 3,
-        name: "iPhone 14 pro",
+        name: "4L Bucket",
         desc: "desc3",
+        price: 299,
+        image: "https://cdn.pixabay.com/photo/2016/09/04/07/02/bucket-1643406_1280.png"
+    },
+    {
+        id: 4,
+        name: "Mattress",
+        desc: "desc4",
         price: 2999,
-        image: "https://res.cloudinary.com/dil1psh4v/image/upload/v1675445157/onlineShop/ip_12_p4d8nf.webp"
+        image: "https://cdn.pixabay.com/photo/2017/02/01/09/43/mattress-2029190_1280.jpg"
     }
 ]
 module.exports = products;
