@@ -4,7 +4,7 @@ const NavBar = () => {
     const {cartTotalQuantity} = useSelector(state => state.cart)
     return (<nav className="nav-bar">
     <Link to="/">
-        <h2>Online_Shop</h2>
+        <h2>V_SHOP</h2>
     </Link>
     <Link to="/cart">
         <div className="nav-bag">
