@@ -20,10 +20,6 @@ const Home = () => {
     <p>Loading...</p> : error?
     <p>An error occured</p>:
     <>
-      <div className="sideBar">
-        <input type="checkbox" id="1" value="1" onChange={()=>setSort("1")} />
-        <label htmlFor="1" onClick={()=>setSort("1")}>iPhone 12</label>
-      </div>
       <h2>New Arrivals</h2>
       <div className="products">
         {data1?.map((product) =><div key= {product.id} className="product">
